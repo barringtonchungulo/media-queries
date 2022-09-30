@@ -1,0 +1,50 @@
+section {
+    border: 2px solid black;
+    margin-bottom: 2ch;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4ch;
+}
+div {
+    border: 2px solid rgb(173, 163, 163);
+    width: 300px;
+    height: 80vh;
+    background: linear-gradient(rgb(175, 172, 172), rgb(248, 244, 244));
+    margin-top: 2ch;
+    margin-bottom: 2ch;
+    border-bottom-left-radius: 2ch;
+    border-bottom-right-radius: 2ch;
+    border-top-left-radius: 2ch;
+    border-top-right-radius: 2ch;
+    border-style: outset;
+}
+img {
+    width: 300px;
+    height: 40vh;
+    position: relative;
+    right: 5ch;
+}
+p {
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+.avatar {
+    border-color: inherit;
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 375px) {
+    #desktop {
+       background: rgb(32, 30, 31);
+       color: white;
+    }
+}
+@media (max-width: 768px) {
+    #tablet {
+       background: rgb(139, 165, 236);
+       color: white;
+} 
